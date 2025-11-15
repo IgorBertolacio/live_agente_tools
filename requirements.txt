@@ -1,0 +1,6 @@
+livekit-agents>=0.8.0
+livekit-plugins-openai
+livekit-plugins-elevenlabs
+livekit-plugins-silero
+livekit-plugins-anam
+python-dotenv
