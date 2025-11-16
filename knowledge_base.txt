@@ -1,0 +1,196 @@
+{
+  "dados_municipais": {
+    "recursos_humanos": {
+      "funcionarios_ativos": 8556,
+      "funcionarios_aposentados": 664,
+      "total_funcionarios": 9220,
+      "professores": 3283,
+      "folha_pagamento": {
+        "valor_bruto_total": 8494283.6,
+        "valor_fundeb": 3564123.8,
+        "custo_medio_por_funcionario_ativo": 992.77,
+        "custo_medio_total": 921.59
+      }
+    },
+    "educacao": {
+      "alunos_matriculados": 5835,
+      "professores": 3283,
+      "relacao_professor_aluno": 1.78
+    },
+    "saude": {
+      "atendimentos_diarios": 1800,
+      "atendimentos_mensais_estimados": 54000,
+      "atendimentos_anuais_estimados": 648000
+    },
+    "patrimonio": {
+      "imoveis_cadastrados": 85128,
+      "imoveis_por_funcionario": 9.96
+    },
+    "arrecadacao_anual": {
+      "2023": {
+        "valor": 84332248.52,
+        "crescimento_percentual": null
+      },
+      "2024": {
+        "valor": 121355593.24,
+        "crescimento_percentual": 43.9
+      },
+      "2025": {
+        "valor": 107232894.24,
+        "observacao": "Valor parcial - ano em andamento"
+      }
+    },
+    "principais_tributos": [
+      {
+        "nome": "ISS Lançado",
+        "valor": 98788274.46,
+        "ranking": 1
+      },
+      {
+        "nome": "ITIV - Imposto de Transmissão Inter-Vivos",
+        "valor": 64733357.34,
+        "ranking": 2
+      },
+      {
+        "nome": "IPTU - Imposto Predial e Territorial Urbano",
+        "valor": 50793292.03,
+        "ranking": 3,
+        "valor_medio_por_imovel": 596.64
+      },
+      {
+        "nome": "ISS Simples Nacional",
+        "valor": 49162222.71,
+        "ranking": 4
+      },
+      {
+        "nome": "Taxa de Fiscalização e Funcionamento",
+        "valor": 13101776.58,
+        "ranking": 5
+      }
+    ],
+    "iss_consolidado": {
+      "total": 150853240.09,
+      "percentual_arrecadacao": 48,
+      "observacao": "Principal fonte de receita tributária municipal"
+    },
+    "divida_ativa": {
+      "evolucao_anual": {
+        "2019": {
+          "valor": 10443313.62,
+          "variacao_percentual": null
+        },
+        "2020": {
+          "valor": 11121014.48,
+          "variacao_percentual": 6.5
+        },
+        "2021": {
+          "valor": 11102547.94,
+          "variacao_percentual": -0.2
+        },
+        "2022": {
+          "valor": 10921896.02,
+          "variacao_percentual": -1.6
+        },
+        "2023": {
+          "valor": 9744788.8,
+          "variacao_percentual": -10.8
+        },
+        "2024": {
+          "valor": 10525789.54,
+          "variacao_percentual": 8
+        }
+      },
+      "total_acumulado": 63858749.94,
+      "percentual_arrecadacao_2024": 8.7,
+      "situacao_divida": [
+        {
+          "situacao": "Débito",
+          "valor": 37888819.83,
+          "percentual": 59.5
+        },
+        {
+          "situacao": "Protesto Cartório",
+          "valor": 7271565.89,
+          "percentual": 11.4
+        },
+        {
+          "situacao": "Ação Judicial",
+          "valor": 6209887.56,
+          "percentual": 9.7
+        },
+        {
+          "situacao": "Protesto Cartório/Ação Judicial",
+          "valor": 5805648.07,
+          "percentual": 9.1
+        },
+        {
+          "situacao": "Parcelado",
+          "valor": 3680812.85,
+          "percentual": 5.8
+        },
+        {
+          "situacao": "Débito Parcelamento",
+          "valor": 1304088.13,
+          "percentual": 2
+        },
+        {
+          "situacao": "Enviado à Procuradoria",
+          "valor": 483458.6,
+          "percentual": 0.8
+        },
+        {
+          "situacao": "Encaminhado para Protesto",
+          "valor": 481339.4,
+          "percentual": 0.8
+        }
+      ]
+    },
+    "empresas": {
+      "evolucao_total": {
+        "2019": 29460,
+        "2020": 33542,
+        "2021": 37207,
+        "2022": 44935,
+        "2023": 50602,
+        "2024": 52957
+      },
+      "por_categoria_2024": {
+        "simples_nacional": {
+          "quantidade": 12431,
+          "crescimento_2019_2024": 76.4
+        },
+        "nao_optante_simples": {
+          "quantidade": 23467,
+          "crescimento_2019_2024": 23
+        },
+        "mei": {
+          "quantidade": 17059,
+          "crescimento_2019_2024": 411.6,
+          "observacao": "Maior crescimento percentual entre todas as categorias"
+        }
+      },
+      "crescimento_geral_2019_2024": {
+        "percentual": 79.8,
+        "empresas_adicionadas": 23497
+      }
+    }
+  },
+  "metadados": {
+    "data_atualizacao": "2025-11-14",
+    "observacoes": [
+      "Dados de 2025 são parciais e referem-se ao período até a data de atualização",
+      "Valores monetários em reais (BRL)",
+      "Percentuais calculados sobre os valores totais correspondentes",
+      "MEI apresentou crescimento exponencial devido a políticas de formalização"
+    ],
+    "fonte": "Secretaria Municipal de Finanças e Planejamento"
+  },
+  "glossario": {
+    "ISS": "Imposto Sobre Serviços de Qualquer Natureza - tributo municipal cobrado sobre prestação de serviços",
+    "ITIV": "Imposto de Transmissão Inter-Vivos - cobrado na transferência de propriedade de imóveis",
+    "IPTU": "Imposto Predial e Territorial Urbano - tributo anual sobre propriedade de imóveis",
+    "FUNDEB": "Fundo de Manutenção e Desenvolvimento da Educação Básica",
+    "MEI": "Microempreendedor Individual - categoria empresarial simplificada",
+    "Divida_Ativa": "Créditos tributários e não tributários não pagos nos prazos estabelecidos"
+  }
+}
